@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+		<script>
+			var userName = prompt("who's there ?",);
+			if(userName=='Admin'){
+				var pass = prompt ('password?',);
+				if(pass== 'theMaster'){
+					alert('welcome!');
+				}else if(pass== null){
+					alert('Canceled');
+				}else{
+					alert('Wrong password');
+				}
+
+			}else if(userName== 'null'){
+				alert('Canceled');				
+			}else{
+				alert(" I don't know you");
+			}
+		</script>
+</body>
+</html>
